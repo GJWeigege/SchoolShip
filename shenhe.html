@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>奖学金审核界面</title>
+	<link rel="stylesheet" type="text/css" href="css/shenhe.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<img src="img/u38.gif">
+			<div>注销登录</div>
+			<div>修改密码</div>
+		</nav>
+	</header>
+	<div id="all">
+		<section id="left">
+			<ul>
+				<li>审核进度</li>
+				<li>奖学金单项</li>
+				<li>奖学金汇总</li>
+			</ul>
+		</section>
+		<section id="right">
+			<ul>
+				<li>
+					<input type="radio" id="rad1" name="schoolType" value="xuexiyouxiu" checked>
+					<label for="rad1">学习优秀奖学金</label>
+				</li>
+				<li>
+					<input type="radio" id="rad2" name="schoolType" value="xuexiyouxiu">
+					<label for="rad2">精神文明奖学金</label>
+				</li>
+				<li>
+					<input type="radio" id="rad3" name="schoolType" value="xuexiyouxiu">
+					<label for="rad3">文体活动奖学金</label>
+				</li>
+				<li>
+					<input type="radio" id="rad4" name="schoolType" value="xuexiyouxiu">
+					<label for="rad4">社会工作奖学金</label>
+				</li>
+				<li>
+					<input type="radio" id="rad5" name="schoolType" value="xuexiyouxiu">
+					<label for="rad5">科技创新奖学金</label>
+				</li>
+				<li>
+					<input type="radio" id="rad6" name="schoolType" value="xuexiyouxiu">
+					<label for="rad6">社会实践奖学金</label>
+				</li>
+			</ul>
+			<div id="showTable">
+				<div id="firstTable">
+					<p>文体竞赛</p>
+					<table id="tab1">
+						<tr>
+							<th style="width:10px;"></th>
+							<th style="width:55px;">学号</th>
+							<th style="width:85px;">姓名</th>
+							<th style="width:165px;">竞赛名称</th>
+							<th style="width:125px;">级别</th>
+							<th style="width:105px;">奖项等级</th>
+							<th style="width:105px;">担任角色</th>
+							<th style="width:105px;">打破纪录</th>
+							<th style="width:105px;">得分计算</th>
+							<th style="width:55px;">分数</th>
+							<th style="width:105px;">审核状态</th>
+							<th style="width:55px;">操作</th>
+						</tr>
+						<tr>
+							<td><input type="checkbox" name="wenti"></td>
+							<td>201303008</td>
+							<td>郭江伟</td>
+							<td>比赛1</td>
+							<td>国家级及以上</td>
+							<td>第一名</td>
+							<td>队员</td>
+							<td>否</td>
+							<td>最高分</td>
+							<td>20</td>
+							<td>未审核</td>
+							<td><button>审核</button></td>
+						</tr>
+						<tr>
+							<td><input type="checkbox" name="wenti"></td>
+							<td>201303008</td>
+							<td>郭江伟</td>
+							<td>比赛1</td>
+							<td>国家级及以上</td>
+							<td>第一名</td>
+							<td>队员</td>
+							<td>否</td>
+							<td>最高分</td>
+							<td>20</td>
+							<td>未审核</td>
+							<td><button>审核</button></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</section>
+	</div>
+	
+</body>
+</html>

@@ -1,0 +1,121 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	font-family: "微软雅黑";
+}
+li{
+	list-style: none;
+}
+nav{
+	background-color: rgb(34,138,191);
+}
+nav img{
+	height: 50px;
+	width: auto;
+	position: relative;
+	left: 60px;
+	padding: 5px;
+}
+nav div{
+	position: relative;
+	float: right;
+	display: inline-block;
+	height: 60px;
+	width: 100px;
+	right: 60px;
+	line-height: 60px;
+	text-align: center;
+}
+#all{
+	display: flex;
+	flex-direction: row;
+	width: 1300px;
+	background-color: rgb(255,255,255);
+	margin: 0 auto;
+}
+#left{
+	display: fixed;
+	width: 200px;
+	height: 500px;
+	background-color: rgb(42,46,41);
+}
+#left ul{
+	position: relative;
+	top: 60px;
+}
+#left li{
+	color: rgb(255,255,255);
+	height: 40px;
+	width: 160px;
+	padding: 10px;
+	text-align: center;
+	line-height: 40px;
+}
+#right{
+	width: 1060px;
+}
+#right ul{
+	position: relative;
+	left: 20px;
+	top: 20px;
+}
+#right ul li{
+	display: inline-block;
+}
+#right ul li label{
+	background-color: rgb(236,236,236);
+	display: inline-block;
+	margin: 0 5px;
+	width: 140px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 5px 5px 0 0;
+}
+#right ul li input{
+	display: none;
+}
+#right li input[type="radio"]:checked ~ label{
+	box-sizing: border-box;
+	position: relative;
+	background-color: rgb(255,255,255);
+	border: solid 1px #ededef;
+	border-bottom: none;
+	z-index: 1;
+}
+#showTable{
+	box-sizing: border-box;
+	position: relative;
+	width: 1026px;
+	display: inline-block;
+	min-height: 40px;
+	border: solid 1px #ededef;
+	top: 18px;
+	left: 25px;
+}
+#firstTable{
+	/*background-color: rgb(236,236,236);*/
+	margin: 20px;
+}
+#showTable p{
+	position: relative;
+	top: 20px;
+	left: 20px
+}
+table{
+	margin: 30px 0px 20px 0px;
+	text-align: center;
+	border-collapse: collapse;
+}
+table tr th{
+	background-color: rgb(236,236,236);
+	padding: 10px 0;
+}
+table tr{
+	background-color: #ffffff;
+}
+table tr td{
+	height: 30px;
+	border-bottom: solid 1px #ededef;
+}
